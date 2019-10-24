@@ -1,0 +1,9 @@
+<mat-drawer-container fullscreen>
+  <mat-drawer mode="side" opened>
+    <div class="row" routerLink="/system" routerLinkActive="active" >System</div>
+    <div class="row"routerLink="/apps" routerLinkActive="active">Apps</div>
+  </mat-drawer>
+  <mat-drawer-content>
+    <router-outlet></router-outlet>
+  </mat-drawer-content>
+</mat-drawer-container>
